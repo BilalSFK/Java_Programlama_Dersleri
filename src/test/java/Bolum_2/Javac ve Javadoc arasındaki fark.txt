@@ -1,0 +1,3 @@
+Javac derleyicisi kodları dikkate alır ama //    /*     */    /** enter gibi açıklama satırlarını dikkate almaz
+
+Javadoc derleyicisi ise  //    /*     */    /** enter gibi açıklama satırlarını dikkate alır. Kodları dikkate almaz...

@@ -1,0 +1,15 @@
+  Notasyonlar:
+
+              -Pascal notasyonu: Class isimlendirmelerin de kullanıyoruz
+              *Tek kelime ise sadece baş harfi büyük, birden çok kelimeden oluşyorsa her kelimenin baş harfi büyük olur
+
+              -Camel Notasyonu: Değişken ve metot tanımlamalarında  kullanılır. Deve hörgücü gibi düşün. Başı eğik hörgüçleri
+                                                                                                            büyük
+              *Eğer tek kelime ise tamamen küçük harflerle,
+              *Eğer birden fazla kelimeden oluşuyorsa ilk kelime tamamen küçük ,sonraki kelimelerin baş harfleri
+              büyük yazılmalı.Örn; kenar ,kareninKenari
+
+
+              -Snake notasyonu:
+              *Kelimeler arasında alttan tire bulunur
+

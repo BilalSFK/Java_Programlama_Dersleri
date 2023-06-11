@@ -1,0 +1,19 @@
+DEĞİŞKEN TANIMLAMA
+
+              Değişkenlerde Kurallar;   int kenar = 5; değişken kenardır.
+
+              1.Resmi kurallar: Derleyici sorun çıkarır.
+
+              -Java anahtar kelimeleri kullanılamaz.  ör:public, class, package --> intellijde mavi görünen herşey
+              -Değişken isminde boşluk bulunamaz.   ör: ke nar olmaz
+              -Sayı ile başlayamaz.                ör: 2kenar olmaz
+              -Değişken isminde herhangi bir operatör bulunamaz  ör: +=kenar olmaz
+              -Değişken isminin ortasında veya sonunda sayı bulunabilir      ör: kenar5 bu olur. ke2nar olur
+              -Değişken içerisinde alttan tire _ kullanılabilir        ör: karenin_kenari
+
+              2.GayriResmi kurallar(bu kurallarda Derleyici hata vermez ama okuyan bu ne biçim dememeli)
+
+              -Değişken ismi içeriğe uygun olmalı
+              -Notasyonlara uygun yazılmalıdır.   pascal, camel, snake
+              -Türkçe karakter kullanmayınız.ı,İ,ç,Ç,ğ,Ğ,ü,Ü,Şş,
+

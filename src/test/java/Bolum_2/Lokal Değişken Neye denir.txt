@@ -1,0 +1,9 @@
+public class DataTypes_VeriTipleri {
+    public static void main(String[] args) {
+
+        int sayi = 128; ----> Bir metodun içinde yazılan değişkene lokal değişken denir.
+
+        sayi=21; --> dersekte artık sayının yeni değeri 21dir. 128 değildir. Hafıza 128'i sildi yerine 21'i getirdi.
+
+    }
+}
