@@ -1,4 +1,4 @@
-package Bolum_1;
+package Bolum_1_Hello_World;
 
 public class Print_Ve_Println_Komutları_Arasındaki_Fark {
     public static void main(String[] args) {

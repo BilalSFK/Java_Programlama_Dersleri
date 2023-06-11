@@ -1,4 +1,4 @@
-package Bolum_2;
+package Bolum_2_Variables_and_DataTypes;
 
 public class DikdörtgeninAlaniniBulma {
     public static void main(String[] args) {
