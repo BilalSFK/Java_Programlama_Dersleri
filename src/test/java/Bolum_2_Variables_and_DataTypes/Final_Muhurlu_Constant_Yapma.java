@@ -1,6 +1,6 @@
 package Bolum_2_Variables_and_DataTypes;
 
-public class _Final_Muhurlu_Constant_Yapma {
+public class Final_Muhurlu_Constant_Yapma {
     public static void main(String[] args) {
         int pi= 3;
         pi = 5;

@@ -22,8 +22,8 @@ public class DataTypes {
         boolean evliMi = true;
 
         char aKarakteri = 'A';
-        char ucodeA = '\u0042';      // char karakteri 65535' kadar gider. İçerisinde tüm Dünya dillerini barındırır.
-        // tekli karakterler, harfler veya ASCII değerleri
+        char ucodeA = '\u2749';      // char karakteri 65535' kadar gider. İçerisinde tüm Dünya dillerini barındırır.
+                                     // tekli karakterler, harfler veya ASCII değerleri
 
         System.out.println(aKarakteri);
         System.out.println(ucodeA);
