@@ -1,6 +1,6 @@
 package Bolum_5_ControlFlowStatements;
 
-public class If_Statements_a {
+public class If_Statements_1 {
     public static void main(String[] args) {
         int yas = 28;
 
