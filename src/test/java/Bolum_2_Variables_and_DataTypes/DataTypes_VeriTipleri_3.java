@@ -1,12 +1,12 @@
 package Bolum_2_Variables_and_DataTypes;
 
-public class DataTypes_VeriTipleri {
+public class DataTypes_VeriTipleri_3 {
     public static void main(String[] args) {
 
         //PRIMITIVE (İLKEL) VERİ TİPLERİ-->TOPLAM 8 ADET
         //TAMSAYI VERİ TİPLERİ
         int sayi = 128;
-        byte sayi1 = 127; //-->128 OLMAZ çünkü byte -128 den 127'e kadar kutu açıyor toplam 256 adet rakama izin veriyor
+        byte sayi1 = 127; //-->128 OLMAZ yıl olarak 2023 de olmaz çünkü byte -128 den 127'e kadar kutu açıyor toplam 256 adet rakama izin veriyor
         short sayi4=10;
         long sayi5=1_000_000_000_000_000_000L;
 
@@ -27,6 +27,12 @@ public class DataTypes_VeriTipleri {
 
         System.out.println(minValue);
         System.out.println(maxValue);
+
+        int minInt=Integer.MIN_VALUE;
+        System.out.println("minInt = " + minInt);
+
+        int maxInt=Integer.MAX_VALUE;
+        System.out.println("maxInt = " + maxInt);
 
         //REFERANS VERİ TİPİ
         String baskent = "Ankara";

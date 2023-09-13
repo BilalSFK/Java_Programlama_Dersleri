@@ -1,6 +1,6 @@
 package Bolum_2_Variables_and_DataTypes;
 
-public class DikdörtgeninAlaniniBulma {
+public class DikdörtgeninAlaniniBulma_2 {
     public static void main(String[] args) {
         /**
          * Bir Dikdörtgenin uzun ve kısa kenarı verildiğinde bu dikdörtgenin alanı nedir?
