@@ -1,9 +1,9 @@
 package Bolum_2_Variables_and_DataTypes;
 
-public class DataTypes {
+public class DataTypes_7 {
     public static void main(String[] args) {
 
-        //Tam sayılar Whole numbers or integer
+        //Tam sayılar "Whole numbers" or "integer" integer da tam sayı demek
 
         byte b = -101;//-->128 OLMAZ çünkü byte -128 den 127'e kadar kutu açıyor toplam 256 adet rakama izin veriyor
         short s = 32767;  //-->-32,768 den 32,767'ye kadar gider

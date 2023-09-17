@@ -1,6 +1,6 @@
 package Bolum_2_Variables_and_DataTypes;
 
-public class StatementVeExpression_Kavramları {
+public class StatementVeExpression_Kavramları_6 {
     public static void main(String[] args) {
         int x,y,z; // burda x,y,z 'yi bildirdik-DEKLARE ettik
         //System.out.println(x);  --> Burda yazdırmak istedik ama yazmaz çünkü initialize etmedik

@@ -1,8 +1,11 @@
 package Bolum_4_Operators;
 
-public class Operator_Precedence_Oncelikleri_b {
+public class Operator_Precedence_Oncelikleri_3 {
     public static void main(String[] args) {
         // todo Operatör öncelikleri-Precedence
+        int sonuc=5+3*8-7;
+        System.out.println(sonuc);  // 22 çıkar önce çarpma-bölme sonra toplama-çıkarma
+
         int result=(5+3)*(8-7);
         System.out.println(result);
 

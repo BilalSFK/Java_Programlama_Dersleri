@@ -5,7 +5,7 @@ public class TipDonusumleri {
         // Type conversion - Tip dönüşümleri -->Bir ilkel veri tipinin değeri başka bir tipe atandığında assign olduğunda gerçekleşir.
         // 2Tip var:
         // 1-Widenig conversion-Genişletme Dönüşümleri->Otomatik Gerçekleşiyor
-        // 2)Narrowing conversion-Daraltma Dönüşümü--> elle yazılır (byte)(13+5) gibi. Sen gerçekleştiriyorsun java sorumluluk almıyor.
+        // 2)Narrowing conversion-Daraltma Dönüşümü--> elle yazılır (byte)(13+5) gibi. Sen manuel gerçekleştiriyorsun ve java sorumluluk almıyor.
         //double  ->float  -> long  -> int ->char -> short -> byte burda büyük veri tipini küçük veri tipine sokmaya zorluyorsun
         // Veri kaybı olabilir elle girersin sorumluluk herzaman işlemi yapana aittir
 

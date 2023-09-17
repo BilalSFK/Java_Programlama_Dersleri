@@ -1,6 +1,6 @@
 package Bolum_4_Operators;
 
-public class Operators_Incremental_Decremental_Statement_a {
+public class Operators_Incremental_Decremental_Statement_2 {
     public static void main(String[] args) {
         // todo: ++ ve -- operatörleri-->1 artırmak ve 1 eksiltmek için kullanılır.
         //  Bu iki operatör TEK BAŞLARINA kullanıldıklarında prefix(ön ek) veya postfix(son ek) olarak kullanılmasının
@@ -47,9 +47,20 @@ public class Operators_Incremental_Decremental_Statement_a {
         int y = 0;
         int z = ++x + y--;
 
-        System.out.println("z=" + z); // z=-1
+        System.out.println("z=" + z); // z=6
         System.out.println("x=" + x); // x=6
-        System.out.println("y=" + y); // y=-8
+        System.out.println("y=" + y); // y=-1
+
+        // Bir değişkenin değerini 1 artırmanın 3 yolu vardır:  Hepsi aynı işe yarar.
+        int b = 3;
+        b++;
+        System.out.println("b = " + b);
+
+        b = b + 1;
+        System.out.println("b = " + b);
+
+        b += 1;
+        System.out.println("b = " + b);
 
         double agirlik = 50.5;
         double result = agirlik / 0; // todo infinity yazar.

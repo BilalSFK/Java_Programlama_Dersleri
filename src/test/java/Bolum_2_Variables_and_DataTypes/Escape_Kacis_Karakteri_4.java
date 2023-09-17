@@ -3,7 +3,7 @@ package Bolum_2_Variables_and_DataTypes;
 /**
  * Escape Yani Kaçış Karakterleri anlatılacak    \"    \"
  */
-public class Escape_Kacis_Karakteri {
+public class Escape_Kacis_Karakteri_4 {
     public static void main(String[] args) {
         String mesaj = "Kişi, Benim adım Ahmet dedi.";
         System.out.println(mesaj);   //Bunu Normal yazabilir

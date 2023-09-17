@@ -1,6 +1,6 @@
 package Bolum_4_Operators;
 
-public class Operators {
+public class Operators_1 {
     public static void main(String[] args) {
         //Operators
         // Arithmetic Operators
@@ -34,11 +34,28 @@ public class Operators {
 
         System.out.println("Result = " + result);
 
+        int sonucc= sayi2/sayi1;
+        System.out.println("sonucc = " + sonucc); // int tam sayı verir. Burada ise kesirli bir sonuç var(1.5). int
+                                        //tam sayı kısmı olanı alır. 1'i basar ama kesirli kısmı 0.5'i atar.
+
+        double sonuccc= sayi2/sayi1;
+        System.out.println("sonuccc = " + sonuccc); // double kesirli sayı verir. Burada da kesirli bir sonuç var(1.5). Ama
+        //tam sayı kısmı olanı alır. 1.0'ı basar ama kesirli kısmı 0.5'i atar.Kesirli kısmı atılır tam sayı kalır elimizde
 
         double sonuc = sayi2 / (double)sayi1;  // 30/20=1.5 sonuç double olacağı için, eğer  sayı2 / sayı1 dersek sonuç 1.0 çıksr
-                                        //değer kaybetmemek için sayi2 / (double)sayi1; birinin yanına (double) yazıp int olan sayılardan birini
-                                        //double'a dönüştüreceğiz..
+                                        //değer kaybetmemek için sayi2 / (double)sayi1;
+                                        // Herhangibirinin yanına (double) yazıp int olan tam sayılardan birini
+                                        //double'a dönüştüreceğiz-yükselteceğiz..
+
         System.out.println("Sonuç = " + sonuc);  //int/int herzaman tamsayı çıkar tam sayıyı yazar, kesirli kısmını atar
+
+        sonuc =(double) sayi2 / sayi1;
+        System.out.println("Sonuç = " + sonuc); //buda olur.
+
+        sonuc =(double) (sayi2 / sayi1);
+        System.out.println("Sonuç = " + sonuc); //buda olmaz çünkü parantez önceliği var yani önce parantez içi yapılır
+                                                // ve sonuc 1.0 çıkar.
+
 
         int kalan = 7 % 2;   //Programlamada 0,1 istenen durumlarda beyaz siyah yada 1 den 100'e kadar olan sayılarda tek olanları yazdır gibi sorular
         System.out.println("Kalan = " + kalan); //mod almayı çok kullanırız.

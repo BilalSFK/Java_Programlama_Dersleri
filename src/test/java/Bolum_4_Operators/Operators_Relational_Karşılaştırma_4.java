@@ -1,6 +1,6 @@
 package Bolum_4_Operators;
 
-public class Operators_Relational_Karşılaştırma_c {
+public class Operators_Relational_Karşılaştırma_4 {
     public static void main(String[] args) {
         // todo Karşılaştırma ve İlişkisel operatörler
         // todo ==, !=, <, >, <=, >=  2 değerin karşılaştırılmasında kullanıyoruz.
@@ -38,11 +38,14 @@ public class Operators_Relational_Karşılaştırma_c {
         System.out.println("Çevre_2 :" + cevre_2);
 
         // todo Şimdi Alanları Karşılaştıralım-> cevre_1>cevre_2 cevre 1 cevre 2 den büyükmüdür?
-        //  Bunu yapabilmek için akışı kontrol edebilmek için if kullanabiliriz artık. Bu buna eşitse şunu yap değilse şunu yap gibi
+        //  Bunu yapabilmek için akışı kontrol edebilmek için if kullanabiliriz artık.
+        //  Bu buna eşitse şunu yap değilse şunu yap gibi
         //  if  yani Control Flow Statements- day06-video1-00.41.17
-        //  KONTROL AKIŞ İFADELERİ -->ASIL 6.DAYDE ANLATILACAK burda niye bahsediyor çünkü if olmadan operatörlerden bahsedilemediği için
+        //  KONTROL AKIŞ İFADELERİ -->ASIL 6.DAYDE ANLATILACAK burda niye bahsediyor çünkü if olmadan operatörlerden
+        //  bahsedilemediği için
 
-        if (alan_1 > alan_2) {   // todo if(şart) eğer alan_1 alan_2 den büyükse bir şart koş. Şunu yap şunu ekrana bas gibi-->akışı yönlendiriyoruz
+        if (alan_1 > alan_2) {   // todo if(şart) eğer alan_1 alan_2 den büyükse bir şart koş.
+            //todo Şunu yap şunu ekrana bas gibi-->akışı yönlendiriyoruz
             System.out.println("İlk Dikdörtgenin alanı daha büyüktür"); // todo alan_1 büyük old. için soldaki ifadeyi yazar
         }
         // todo if else if else bütün durumları yazarız sırayla cevre_1>cevre_2 -> 1.durum cevre_2>cevre_1 -> 2.durum
